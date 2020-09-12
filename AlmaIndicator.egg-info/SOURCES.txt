@@ -1,0 +1,8 @@
+README.md
+setup.py
+AlmaIndicator/Alma.py
+AlmaIndicator/__init__.py
+AlmaIndicator.egg-info/PKG-INFO
+AlmaIndicator.egg-info/SOURCES.txt
+AlmaIndicator.egg-info/dependency_links.txt
+AlmaIndicator.egg-info/top_level.txt
