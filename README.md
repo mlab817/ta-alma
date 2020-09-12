@@ -35,4 +35,10 @@ df['alma'] = alma_indicator.alma()
 
 ## Sample Result
 
+![spy - data](https://user-images.githubusercontent.com/29625844/92999031-54f8c600-f550-11ea-974c-ae96fdb8e623.png)
+
+Note that there will be `NaN` values at the beginning of the ALMA series since there is a window of analysis which is set to 9. In other words, your dataset must at least contain 9 entries.
+
+## Sample Figure
+
 ![spy - alma](https://user-images.githubusercontent.com/29625844/92998867-1d3d4e80-f54f-11ea-919c-dd48c8927172.png)
