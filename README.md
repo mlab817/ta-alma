@@ -19,16 +19,19 @@ Source: Read more on [Stock Maniacs](https://www.stockmaniacs.net/arnaud-legoux-
 
 ## How to Use
 
-`python
-import yfinance
+```python
 # import the package
 from AlmaIndicator import ALMAIndicator
+
+# define a Pandas dataframe which should contain closing price of the stocks
+df = ...
+
 # initialize the indicator
 # you only need to provide a Pandas series of the closing price of the stock
 alma_indicator = ALMAIndicator(close=df['close'])
-# add alma to dataframe
+# add alma to dataframe by calling the alma function
 df['alma'] = alma_indicator.alma()
-`
+```
 
 ## Sample Result
 
