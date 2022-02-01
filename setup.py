@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
 	name='AlmaIndicator',
-	version='0.0.3',
+	version='0.0.4',
 	author='Mark Lester A. Bolotaolo',
 	description='A small library for computing ALMA indicator for stocks',
 	long_description=long_description,

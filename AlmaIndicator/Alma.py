@@ -17,7 +17,6 @@ class ALMAIndicator(IndicatorMixin):
         self._alma_weights = self.alma_weights()
         self._calculate_alma = self.calculate_alma()
         self._alma = self._close.rolling(window=9).apply(self.calculate_alma)
-        return self._alma
 
     def alma(self) -> pd.Series:
         alma = self._check_fillna(self._alma, value=0)

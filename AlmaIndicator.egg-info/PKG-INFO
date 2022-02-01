@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: AlmaIndicator
-Version: 0.0.3
+Version: 0.0.4
 Summary: A small library for computing ALMA indicator for stocks
 Home-page: https://github.com/mlab817/ta-alma
 Author: Mark Lester A. Bolotaolo
