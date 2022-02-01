@@ -1,0 +1,7 @@
+-e git+git@github.com:mlab817/ta-alma.git@daef505c4f645b84849b1dc10d2db3d32041e8a2#egg=AlmaIndicator
+numpy==1.22.1
+pandas==1.4.0
+python-dateutil==2.8.2
+pytz==2021.3
+six==1.16.0
+ta==0.9.0

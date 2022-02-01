@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
 	name='AlmaIndicator',
-	version='0.0.2',
+	version='0.0.3',
 	author='Mark Lester A. Bolotaolo',
 	description='A small library for computing ALMA indicator for stocks',
 	long_description=long_description,
@@ -17,5 +17,13 @@ setuptools.setup(
 		'License :: OSI Approved :: MIT License',
 		'Operating System :: OS Independent'
 	],
-	python_requires='>=3.6'
+	python_requires='>=3.6',
+	install_requires=[
+		"numpy",
+		"pandas",
+		"python-dateutil",
+		"pytz",
+		"six",
+		"ta"
+	]
 )
